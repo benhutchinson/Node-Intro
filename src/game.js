@@ -1,10 +1,8 @@
 function Game(){
-
   this.score = 0;
   this.attempt = 0;
   this.strikes = 0;
 }
-
 
 Game.prototype.roll = function(num){
     this.attempt = num;
